@@ -1,7 +1,7 @@
 # `РЕШЕНО, всё в одном репозитории`
 ## что бы не тратить ресурс appveyor.
-## Первая задача модули character, mathchar, daemon, magician.
-## Вторая задача модули ArrayBufferConverter и getBuffer.
+### Первая задача модули character, mathchar, daemon, magician.
+### Вторая задача модули ArrayBufferConverter и getBuffer.
 
 
 [![Build status](https://ci.appveyor.com/api/projects/status/9kg5h4y5ndhm4syf?svg=true)](https://ci.appveyor.com/project/RT-Vinsent/ajs-homeworks-9)
