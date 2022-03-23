@@ -1,10 +1,16 @@
 /* eslint-disable no-console */
 import Daemon from './modules/daemon';
+import ArrayBufferConverter from './modules/ArrayBufferConverter';
+import getBuffer from './modules/getBuffer';
 
-const test = new Daemon('test');
+const daemon = new Daemon('Alex');
 
-console.log(test);
-test.attack = 200;
-test.distance = 2;
-test.stoned = true;
-console.log(test.attack);
+console.log(daemon);
+daemon.attack = 200;
+daemon.distance = 2;
+daemon.stoned = true;
+console.log(daemon.attack);
+
+const arrBuffer = new ArrayBufferConverter();
+arrBuffer.load(getBuffer());
+console.log(arrBuffer.toString());
